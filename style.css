@@ -57,6 +57,12 @@ body {
 .btn__burger:hover {
   transform: translate(0px, 0px) scale(1.1, 1.1);
 }
+.container-bg {
+  background-image: url(imagenes/tincho.jpg);
+}
+.bg-transparente {
+  background-color: rgba(255, 255, 255, 0.445);
+}
 @media only screen and (min-width: 1024px) {
   .container-b {
     margin-left: auto;
@@ -67,6 +73,12 @@ body {
     font-size: 150%;
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+  .t360 {
+    transition: transform 1378ms ease-out;
+  }
+  .t360:hover {
+    transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
   }
 }
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
