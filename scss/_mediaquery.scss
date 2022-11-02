@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1024px) {
+  .container-b {
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .burger__nombre {
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .t360 {
+    transition: transform 1378ms ease-out;
+    &:hover {
+      transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
+    }
+  }
+
+  .relleno {
+    display: none;
+  }
+}

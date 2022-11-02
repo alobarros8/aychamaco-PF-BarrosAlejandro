@@ -1,14 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-.logochamaco {
-  width: 10rem;
-  height: 10rem;
-}
-
-body {
-  font-family: "Noto Sans", sans-serif;
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
-}
-
 .icono {
   transition: transform 300ms ease-out;
 }
@@ -22,8 +12,26 @@ body {
   height: auto;
 }
 
+.logochamaco {
+  width: 10rem;
+  height: 10rem;
+}
+
+.container-bg {
+  background-image: url(../imagenes/tincho.jpg);
+}
+
+.bg-transparente {
+  background-color: rgba(255, 255, 255, 0.445);
+}
+
 .relleno {
   padding-bottom: 20%;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/vintage-wallpaper.png);
 }
 
 .container-b {
@@ -66,14 +74,6 @@ body {
 }
 .btn__burger:hover {
   transform: translate(0px, 0px) scale(1.1, 1.1);
-}
-
-.container-bg {
-  background-image: url(../imagenes/tincho.jpg);
-}
-
-.bg-transparente {
-  background-color: rgba(255, 255, 255, 0.445);
 }
 
 @media only screen and (min-width: 1024px) {
