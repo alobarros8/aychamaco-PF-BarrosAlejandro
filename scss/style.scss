@@ -79,10 +79,11 @@ body {
   }
   .t360 {
     transition: transform 1378ms ease-out;
+    &:hover {
+      transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
+    }
   }
-  .t360:hover {
-    transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
-  }
+
   .relleno {
     display: none;
   }
