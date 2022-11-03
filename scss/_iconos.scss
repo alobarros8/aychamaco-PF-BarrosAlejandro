@@ -1,3 +1,4 @@
+@import "vars";
 .icono {
   transition: transform 300ms ease-out;
   &:hover {
@@ -13,4 +14,16 @@
 .logochamaco {
   width: 10rem;
   height: 10rem;
+}
+#wp:hover {
+  color: $-green;
+}
+#mail:hover {
+  color: $-red;
+}
+#ig:hover {
+  color: $-blue;
+}
+#fb:hover {
+  color: $-blue;
 }

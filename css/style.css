@@ -17,6 +17,22 @@
   height: 10rem;
 }
 
+#wp:hover {
+  color: #02ad27;
+}
+
+#mail:hover {
+  color: red;
+}
+
+#ig:hover {
+  color: #008fc7;
+}
+
+#fb:hover {
+  color: #008fc7;
+}
+
 .container-bg {
   background-image: url(../imagenes/tincho.jpg);
 }
