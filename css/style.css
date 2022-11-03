@@ -74,14 +74,6 @@ body {
   border-radius: 10%;
   width: 80%;
   height: auto;
-  object-view-box: inset(0%);
-  transition: all 0.75s;
-  filter: grayscale(80%);
-}
-.burger__img:hover {
-  object-view-box: inset(17%);
-  object-position: 0px -30px;
-  filter: grayscale(0%);
 }
 
 .card__description {
@@ -124,6 +116,16 @@ body {
   }
   .relleno {
     display: none;
+  }
+  .burger__img {
+    object-view-box: inset(0%);
+    transition: all 0.75s;
+    filter: grayscale(80%);
+  }
+  .burger__img:hover {
+    object-view-box: inset(17%);
+    object-position: 0px -30px;
+    filter: grayscale(0%);
   }
 }
 
