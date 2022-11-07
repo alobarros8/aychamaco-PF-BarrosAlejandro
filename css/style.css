@@ -114,6 +114,9 @@ body {
   .t360:hover {
     transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
   }
+  .height-img {
+    height: 800px;
+  }
   .relleno {
     display: none;
   }
@@ -127,6 +130,9 @@ body {
     object-position: 0px -30px;
     filter: grayscale(0%);
   }
+}
+.height-img {
+  height: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
