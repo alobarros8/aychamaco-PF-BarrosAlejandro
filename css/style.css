@@ -73,7 +73,7 @@ body {
 .burger__img {
   border-radius: 10%;
   width: 80%;
-  height: auto;
+  height: 400px;
 }
 
 .card__description {
