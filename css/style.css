@@ -123,6 +123,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .card-b {
+    width: 90%;
+    margin: 1%;
+  }
   .burger__nombre {
     font-size: 150%;
     margin-top: 2%;
