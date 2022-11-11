@@ -1,3 +1,20 @@
+@media only screen and (min-width: 480px) {
+  .card-b {
+    width: 95%;
+    margin: 1%;
+  }
+  .container-b {
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .burger__nombre {
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .container-b {
     margin-left: auto;
@@ -14,9 +31,6 @@
     &:hover {
       transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1);
     }
-  }
-  .height-img {
-    height: 800px;
   }
 
   .relleno {

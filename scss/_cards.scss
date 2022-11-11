@@ -1,8 +1,7 @@
 @import "vars";
 .container-b {
-  margin-left: 5%;
   display: grid;
-  grid-template-columns: 90%;
+  grid-template-columns: 100%;
 }
 .burger_nombre {
   margin: $margintitle;
@@ -10,16 +9,16 @@
 }
 .card-b {
   background-color: $bg-card-color;
-
+  width: 98%;
   text-align: center;
-  margin: 10%;
+  margin-top: 2%;
   border: 5px solid $border-card;
   border-radius: 75px;
 }
 .burger__img {
   border-radius: 10%;
   width: 80%;
-  height: 400px;
+  height: auto;
 }
 .card__description {
   margin-top: 2%;
