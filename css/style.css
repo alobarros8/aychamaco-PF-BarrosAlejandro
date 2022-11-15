@@ -100,7 +100,7 @@ body {
   height: auto;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 620px) {
   .card-b {
     width: 95%;
     margin: 1%;
